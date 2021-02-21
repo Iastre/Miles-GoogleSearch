@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.header {
+    float: top;
+    margin: 22px;
+    margin-top: 23px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#signIn {
+    background-color: #4285f4;
+    color: white;
+    padding: 7px 13px 8px 13px;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+#signIn a:visited {
+    color: white;
+}
+
+#signIn a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.main {
+    width: 50%;
+    margin: auto;
+}
