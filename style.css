@@ -18,9 +18,11 @@ a:visited {
 }
 
 .header {
-    float: top;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     margin: 22px;
-    margin-top: 23px;
 }
 
 .left {
@@ -31,12 +33,31 @@ a:visited {
     float: right;
 }
 
+.left a {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.right a {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(242, 242, 242);
+    padding: 22px;
+}
+
 #signIn {
     background-color: #4285f4;
     color: white;
-    padding: 7px 13px 8px 13px;
     border-radius: 5%;
     font-weight: bold;
+    padding: 7px 13px 8px 13px;
 }
 
 #signIn a:visited {
@@ -48,7 +69,58 @@ a:visited {
     cursor: default;
 }
 
+.button {
+    padding: 7px 13px 8px 13px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: gray;
+    margin: 8px;
+    border-radius: 6%;
+}
+
+.button:hover {
+    border: 1px solid #c6c6c6;
+    cursor: pointer;
+    color: black;
+}
+
+.button:focus {
+    outline: none;
+    border: 1px solid blue;
+}
+
+.searchBox {
+    min-width: 600px;
+    border-radius: 24px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchBox:hover {
+    box-shadow: 1px 4px lightgray;
+}
+
+.searchBox:focus {
+    outline: none;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main {
-    width: 50%;
-    margin: auto;
+    margin: 20%;
 }
