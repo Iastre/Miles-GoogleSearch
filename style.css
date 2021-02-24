@@ -10,6 +10,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 a:visited {
@@ -122,5 +123,5 @@ a:visited {
 }
 
 .main {
-    margin: 20%;
+    margin: 15% 20% 20% 20%;
 }
